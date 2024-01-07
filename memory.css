@@ -1,0 +1,117 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: white;
+    width: 750px;  
+    margin: 0 auto;
+    border: 3px solid blue;
+    padding: 0 2em 1em;
+}
+h1 { 
+    font-size: 150%;
+    color: blue;
+    margin-bottom: .5em;
+}
+label {
+    float: left;
+    width: 8em;
+}
+input, select { 
+    width: 10em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+input[type=checkbox] { 
+    width: 2em;
+}
+header p {
+	margin: 0 2em 1em 0;
+}
+#new_game, #player, #high_score, #correct {
+	float: left;
+}
+#cards img {
+    height: 100px;
+    width: 80px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    float: left; 
+}
+.clear {
+    clear: both;
+}
+
+main {
+    border: solid 1px #999;
+}
+
+#blocks {
+    display: flex;
+    background-color: #ddd;
+    padding: 10px 0 0 10px;
+    margin: 0;
+    border-bottom: solid 1px #999;
+}
+
+#blocks li{
+    display: block;
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+    border-top: solid 1px #999;
+    border-left: solid 1px #999;
+    border-right: solid 1px #999;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#blocks li a{
+    text-decoration: none;
+    color: #555;
+}
+
+#blocks li a:active {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#tabs-1, #tabs-2, #tabs-3{
+    padding: 10px;
+    margin: 10px;
+}
+#tabs-1 {
+    min-height: 40em;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    background-color: #5c5cec;
+    color: antiquewhite;
+}
+
+#row1, #row2, #row3, #row4, #row5, #row6 {
+    min-height: 100px;
+}
+
+#cards img {
+    height: 100px;
+    width: 80px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    float: left;
+}
+.match {
+    pointer-events: none;
+}
+.flipped1 {
+    pointer-events: none;
+}
+.flipped2 {
+    pointer-events: none;
+}
+
+.clear {
+    clear: both;
+}
